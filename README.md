@@ -1,4 +1,4 @@
-# Started
+# Start
 
 ```sh
 yarn start
