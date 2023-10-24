@@ -1,0 +1,1 @@
+export { langProvider } from './langProvider';

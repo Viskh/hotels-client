@@ -16,11 +16,18 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "isolatedModules": false,
+    "noEmit": false,
+    "declarationMap": false,
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "rootDir": "./",
   },
   "include": [
-    "src"
+    "src/**/*.ts", "src/**/*.tsx", "src/global.d.ts", "src/i18n.d.ts"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
   ]
 }
