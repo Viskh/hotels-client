@@ -1,7 +1,7 @@
 import compose from 'compose-function';
 
-import { langProvider } from './langProvider';
-import { routerProvider } from './routerProvider';
-import { storeProvider } from './storeProvider';
+import { withLang } from './with-lang';
+import { withRouter } from './with-router';
+import { withStore } from './with-store';
 
-export const providers = compose(langProvider, routerProvider, storeProvider);
+export const withProvider = compose(withLang, withRouter, withStore);
