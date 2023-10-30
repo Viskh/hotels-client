@@ -1,9 +1,9 @@
-import { TestWidget } from 'widgets/TestWidget';
+import { Header } from 'widgets/header';
 
 const Test = () => {
     return (
         <div>
-            <TestWidget />
+            <Header />
         </div>
     );
 };

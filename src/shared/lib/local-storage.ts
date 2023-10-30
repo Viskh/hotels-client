@@ -2,7 +2,7 @@ export const setLocalStorage = (key: string, value: string) => {
     localStorage.setItem(key, value);
 };
 
-export const getLocalStorage = <T>(key: string, shouldParse = true) => {
+export const getLocalStorage = <T>(key: string, shouldParse = false) => {
     const value = localStorage.getItem(key);
 
     if (value) {

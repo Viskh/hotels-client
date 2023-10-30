@@ -1,7 +1,7 @@
 import { combineReducers } from '@reduxjs/toolkit';
 
-import { testModel } from 'entities/Test';
+import { themeModel } from 'features/change-theme-button';
 
 export const reducers = combineReducers({
-    test: testModel.reducer,
+    themeReducer: themeModel.reducer,
 });
