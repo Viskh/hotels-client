@@ -1,11 +1,11 @@
-import * as general from './general';
+import * as general from "./general";
 
 export const resources = {
-    ru: {
-        general: general.ru,
-    },
+  ru: {
+    general: general.ru,
+  },
 
-    en: {
-        general: general.en,
-    },
+  en: {
+    general: general.en,
+  },
 } as const;

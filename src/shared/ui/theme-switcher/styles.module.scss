@@ -1,8 +1,8 @@
 .switch {
   position: relative;
   display: inline-block;
-  width: 75px;
-  height: 35px;
+  width: 55px;
+  height: 25px;
   
   input {
     opacity: 0;
@@ -15,13 +15,13 @@
   }
   
   input:checked + .slider:before {
-    transform: translateX(40px);
+    transform: translateX(30px);
     background-color: transparent;
     border-radius: 50%;
     border-top-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
-    box-shadow: inset -6px -4px 0 #d8e9ef;
+    box-shadow: inset -5px -3px 0 #d8e9ef;
   }
   
   .slider {
@@ -38,15 +38,15 @@
     &:before {
       position: absolute;
       content: "";
-      height: 27px;
-      width: 27px;
-      left: 4px;
-      bottom: 4px;
+      height: 21px;
+      width: 21px;
+      left: 2px;
+      bottom: 2px;
       background-color: yellow;
       transition: 0.1s;
       border-radius: 50%;
       text-align: center;
-      line-height: 27px;
+      line-height: 20px;
     }
   }
 }

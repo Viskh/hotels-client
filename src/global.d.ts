@@ -1,24 +1,24 @@
 // <reference types="app/store/types" />
-declare module '*.module.scss' {
-    type StylesType = Record<string, string>;
+declare module "*.module.scss" {
+  type StylesType = Record<string, string>;
 
-    declare const styles: StylesType;
+  declare const styles: StylesType;
 
-    export default styles;
+  export default styles;
 }
 
 declare interface EventTarget extends EventTarget {
-    files: FileList | null;
+  files: FileList | null;
 }
 
-declare module '*.json';
+declare module "*.json";
 
-declare module '*.jpg';
+declare module "*.jpg";
 
-declare module '*.jpeg';
+declare module "*.jpeg";
 
-declare module '*.png';
+declare module "*.png";
 
-declare module '*.webp';
+declare module "*.webp";
 
-declare module '*.svg';
+declare module "*.svg";

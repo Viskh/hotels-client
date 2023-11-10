@@ -1,1 +1,1 @@
-export { withLang } from './with-lang';
+export { withLang } from "./with-lang";

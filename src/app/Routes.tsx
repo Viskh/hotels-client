@@ -1,13 +1,13 @@
-import { Route, Routes, useLocation } from 'react-router-dom';
+import { Route, Routes, useLocation } from "react-router-dom";
 
-import Test from 'pages/Test';
+import Test from "pages/Test";
 
 export const Routing = () => {
-    const location = useLocation();
+  const location = useLocation();
 
-    return (
-        <Routes location={location}>
-            <Route path="/" element={<Test />} />
-        </Routes>
-    );
+  return (
+    <Routes location={location}>
+      <Route path="/" element={<Test />} />
+    </Routes>
+  );
 };
