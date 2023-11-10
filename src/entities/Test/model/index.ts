@@ -1,1 +1,1 @@
-export { reducer } from './slice';
+export { reducer } from "./slice";

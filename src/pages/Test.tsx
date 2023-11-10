@@ -1,11 +1,11 @@
-import { Header } from 'widgets/header';
+import { Header } from "widgets/header";
 
 const Test = () => {
-    return (
-        <div>
-            <Header />
-        </div>
-    );
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 };
 
 export default Test;

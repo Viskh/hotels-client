@@ -1,2 +1,2 @@
-export { ThemeSwitcher } from './theme-switcher';
-export * from './types';
+export { ThemeSwitcher } from "./theme-switcher";
+export * from "./types";

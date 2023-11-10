@@ -1,21 +1,21 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
-import { useBind } from './use-bind';
-import { getHasInputValueChanged } from '../lib';
+import { useBind } from "./use-bind";
+import { getHasInputValueChanged } from "../lib";
 
 export const useInput = (inputValue: string) => {
-    const [localValue, setLocalValue] = useState(inputValue);
+  const [localValue, setLocalValue] = useState(inputValue);
 
-    const { value, onChange } = useBind(localValue, setLocalValue);
+  const { value, onChange } = useBind(localValue, setLocalValue);
 
-    useEffect(() => {
-        if (getHasInputValueChanged(localValue, inputValue)) {
-            onChange(inputValue || '');
-        }
-    }, [inputValue]);
+  useEffect(() => {
+    if (getHasInputValueChanged(localValue, inputValue)) {
+      onChange(inputValue || "");
+    }
+  }, [inputValue]);
 
-    return {
-        localValue: value,
-        onChange,
-    };
+  return {
+    localValue: value,
+    onChange,
+  };
 };

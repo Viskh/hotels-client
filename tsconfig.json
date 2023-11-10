@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -21,13 +17,13 @@
     "declarationMap": false,
     "jsx": "react-jsx",
     "baseUrl": "./src",
-    "rootDir": "./",
+    "rootDir": "./"
   },
   "include": [
-    "src/**/*.ts", "src/**/*.tsx", "src/global.d.ts", "src/i18n.d.ts"
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/global.d.ts",
+    "src/i18n.d.ts"
   ],
-  "exclude": [
-    "dist",
-    "node_modules"
-  ]
+  "exclude": ["dist", "node_modules"]
 }

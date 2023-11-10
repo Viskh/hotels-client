@@ -1,1 +1,1 @@
-export * as testModel from './model';
+export * as testModel from "./model";
