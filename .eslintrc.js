@@ -8,6 +8,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "prettier",
+    "plugin:prettier/recommended",
   ],
   overrides: [
     {
@@ -20,6 +21,11 @@ module.exports = {
       },
     },
   ],
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: "latest",
@@ -58,12 +64,7 @@ module.exports = {
         ],
       },
     ],
-    "no-console": [
-      "error",
-      {
-        allow: ["warn", "error", "info"],
-      },
-    ],
+    "no-console": "warn",
     "import/no-unresolved": "off",
     "react/display-name": "off",
   },

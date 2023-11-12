@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   background-color: var(--primary);
-  height: 70px;
+  min-height: 70px;
+  margin-bottom: 20px;
 }
 
 .content {

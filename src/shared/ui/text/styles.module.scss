@@ -1,0 +1,52 @@
+.text {
+	font-size: 14px;
+  }
+  
+  .bold {
+	font-weight: bold;
+  }
+  
+  .disable_select {
+	user-select: none;
+  }
+  
+  .family {
+	font-family: Mulish, sans-serif;
+  
+	&_regular {
+	  font-family: Mulish, sans-serif;
+	}
+  
+	&_medium {
+	  font-family: Mulish-Medium;
+	}
+  
+	&_semibold {
+	  font-family: Mulish-Semibold;
+	}
+  }
+  
+  .align {
+	&_left {
+	  text-align: left;
+	}
+  
+	&_center {
+	  text-align: center;
+	}
+  
+	&_right {
+	  text-align: right;
+	}
+  }
+  
+
+.textColors {
+	&-primary {
+		color: var(--primary-text);
+	}
+
+	&-secondary {
+		color: var(--secondary-text);
+	}
+}

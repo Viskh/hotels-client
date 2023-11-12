@@ -1,5 +1,9 @@
 # Start
 
 ```sh
-yarn start
+npm install
+```
+
+```sh
+npm start
 ```
