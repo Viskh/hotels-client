@@ -1,0 +1,13 @@
+.button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  display: inline-flex;
+  transition: opacity ease-in 100ms, transform ease-in 50ms;
+  align-items: center;
+  justify-content: center;
+}

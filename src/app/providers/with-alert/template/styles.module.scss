@@ -1,0 +1,21 @@
+.container {
+	width: 400px;
+	height: auto;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.12), 0 12px 12px rgba(50, 50, 71, 0.08),
+	0 16px 24px rgba(50, 50, 71, 0.08);
+	border-radius: 4px;
+	align-items: center;
+	position: relative;
+	background-color: var(--primary);
+	display: flex;
+	
+}
+
+.iconContainer {
+	padding: 20px;
+}
+
+.messageContainer {
+	padding: 15px 60px 16px 0;
+    flex: 1;
+}

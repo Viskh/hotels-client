@@ -5,3 +5,4 @@ export * from "./use-bind";
 export * from "./use-input";
 export * from "./use-modal";
 export * from "./use-thunk";
+export * from "./use-infinite-scroll";

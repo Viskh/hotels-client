@@ -11,7 +11,7 @@ const getHeaders = () => {
 };
 
 const getApiUrl = () => {
-  return process.env.BACKEND_URL;
+  return process.env.REACT_APP_BACKEND_URL;
 };
 
 export const instance = axios.create({
